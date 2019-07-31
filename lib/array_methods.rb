@@ -3,10 +3,10 @@
 # end
 
 def find_element_index(array, value_to_find)
-  index = array[]
+  index = array[0]
   
   array.each do |i|
-    i == value_to_find ? value_to_find[]
+    i == value_to_find ? value_to_find[] : nil
     end
   end
 end
