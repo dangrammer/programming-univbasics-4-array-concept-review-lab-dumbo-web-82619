@@ -3,15 +3,11 @@
 # end
 
 def find_element_index(array, value_to_find)
-  index = 0
   
   array.each do |i|
-    if i == value_to_find
-      index = i
-    end
   end
   
-  return array.find_index(i)
+  return array.index(value_to_find)
 end
 
 # def find_max_value(array)
