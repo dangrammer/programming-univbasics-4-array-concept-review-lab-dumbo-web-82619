@@ -1,18 +1,7 @@
-# def find_element_index(array, value_to_find)
-#   return array.index(value_to_find)
-# end
-
 def find_element_index(array, value_to_find)
-  
-  array.each do |i|
-    if i == value_to_find
-      puts array.index(value_to_find)
-    else
-      puts nil
-    end
-  end
-  
+return array.index(value_to_find)
 end
+
 
 # def find_max_value(array)
 #   return array.sort[-1] 
