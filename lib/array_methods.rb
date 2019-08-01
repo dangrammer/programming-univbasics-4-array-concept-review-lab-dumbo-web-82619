@@ -6,7 +6,7 @@ def find_element_index(array, value_to_find)
   
   array.each do |i|
     if i == value_to_find
-      puts array.index[i]
+      array.index[i]
       else puts nil
     end
   end
