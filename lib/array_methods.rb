@@ -10,8 +10,6 @@ def find_element_index(array, value_to_find)
       index = i
     end
   end
-  
-  return array.index(i)
 end
 
 # def find_max_value(array)
